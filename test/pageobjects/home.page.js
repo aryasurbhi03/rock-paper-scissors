@@ -16,4 +16,4 @@ class HomePage {
     }
 }
 
-export default new LoginPage();
+export default new HomePage();

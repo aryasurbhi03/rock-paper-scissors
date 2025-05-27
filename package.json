@@ -4,8 +4,8 @@
   "description": "rock-paper-scissors game built using Javascript.",
   "main": "app.js",
   "scripts": {
-    "start": "serve . -l 5000",
-    "test": "start-server-and-test start http://localhost:5000 wdio"
+    "start": "serve . -l 5500",
+    "test": "start-server-and-test start http://localhost:5500 wdio"
   },
   "repository": {
     "type": "git",

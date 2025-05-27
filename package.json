@@ -1,0 +1,31 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "rock-paper-scissors game built using Javascript.",
+  "main": "app.js",
+  "scripts": {
+    "start": "serve . -l 5000",
+    "test": "start-server-and-test start http://localhost:5000 wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryasurbhi03/rock-paper-scissors.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/aryasurbhi03/rock-paper-scissors/issues"
+  },
+  "homepage": "https://github.com/aryasurbhi03/rock-paper-scissors#readme",
+  "devDependencies": {
+    "@wdio/cli": "^9.14.0",
+    "@wdio/local-runner": "^9.14.0",
+    "@wdio/mocha-framework": "^9.14.0",
+    "@wdio/spec-reporter": "^9.14.0",
+    "serve": "^14.2.4",
+    "start-server-and-test": "^2.0.12",
+    "wait-on": "^8.0.3"
+  }
+}
